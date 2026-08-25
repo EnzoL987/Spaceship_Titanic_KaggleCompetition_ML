@@ -1,5 +1,9 @@
 # Machine Learning Project: Spaceship Titanic - Kaggle Competition
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-171515?style=for-the-badge&logo=xgboost&logoColor=white)
+
 ## 📝 Project Description
 This project is my participation in the Kaggle competition ["Spaceship Titanic"](https://www.kaggle.com/competitions/spaceship-titanic). 
 
