@@ -58,15 +58,15 @@ The project's development was divided into three iterative phases, leading to th
 To better understand the decision-making process and evaluate the robustness of our models (specifically Gradient Boosting), we generated the following key visualizations:
 
 **Learning Curve**
-![Learning Curve](Learning_curve.png)
+![Learning Curve](/Graphs/Learning_curve.png)
 * **Analysis:** The learning curve acts as a health check for the model. The convergence of the training score (blue line) and the cross-validation score (purple line) with a narrow gap indicates a very healthy model[cite: 10]. It generalizes well to unseen data and does not suffer from massive overfitting[cite: 10]. 
 
 **Feature Importance**
-![Feature Importance](/Image/Feature_importance.png)
+![Feature Importance](/Graphs/Feature_importance.png)
 * **Analysis:** This graph reveals that the `CryoSleep` status is by far the most decisive signal for predicting if a passenger was transported. It also highlights the strong predictive power of luxury expenses (`Spa`, `VRDeck`, `RoomService`) and our engineered cabin features, completely validating our initial business logic and feature engineering strategy[cite: 10].
 
 **ROC & Precision-Recall Curves**
-![ROC and Precision-Recall](ROC_Precision-Recall.png)
+![ROC and Precision-Recall](/Graphs/ROC_Precision-Recall.png)
 * **Analysis:** These curves confirm the model's excellent classification capabilities. With a ROC-AUC score of 0.90 and an Average Precision (AP) of 0.91, the algorithm demonstrates a robust ability to distinguish between transported and non-transported passengers while minimizing false positives.
 
 ## 🚀 How to Run This Project Locally
